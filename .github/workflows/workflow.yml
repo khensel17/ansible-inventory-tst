@@ -12,7 +12,7 @@ on:
 jobs:
   main-workflow:
     uses: khensel17/github-arc-demo/.github/workflows/01-hello-world.yml@main
-    with:
+    secrets:
       AWX_PASSWORD: ${{ secrets.AWX_PASSWORD }}
 
   ansible-awx-workflow:

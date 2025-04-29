@@ -10,10 +10,10 @@ on:
       - development
 
 jobs:
-  main-workflow:
-    uses: khensel17/github-arc-demo/.github/workflows/01-hello-world.yml@main
-    secrets:
-      AWX_PASSWORD: ${{ secrets.AWX_PASSWORD }}
+  # main-workflow:
+  #   uses: khensel17/github-arc-demo/.github/workflows/01-hello-world.yml@main
+  #   secrets:
+  #     AWX_PASSWORD: ${{ secrets.AWX_PASSWORD }}
 
   ansible-awx-workflow:
     uses: khensel17/github-arc-demo/.github/workflows/github-actions-inventories.yml@main

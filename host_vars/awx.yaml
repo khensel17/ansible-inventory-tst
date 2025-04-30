@@ -21,7 +21,6 @@ awx_config:
   organizations:
     - name: organization1
       description: Organization 1
-      execution_environment: "awx-custom-ee"
       # galaxy_credentials:
       #   - "Ansible Galaxy"
       teams:
@@ -31,6 +30,10 @@ awx_config:
           description: "Development Team"
 
   extra_execution_environments: []
+    # - name: awx-custom-ee
+    #   description: "AWX Custom Execution environment"
+    #   image: khensel17/awx-custom-ee:1.0.0
+    #   pull: missing
 
   credentials:
     - name: git-read-credential

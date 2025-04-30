@@ -7,3 +7,5 @@ inventories:
     sources:
       - name: inventory
         path: inventory.ini
+      - name: inventory-test
+        path: inventory.ini

@@ -1,0 +1,9 @@
+project_name: organization1-project-inventory-test
+project_description: Project Inventory test
+project_organization_name: organization1
+inventories:
+  - name: organization1-inventory-test
+    description: Inventory test
+    sources:
+      - name: inventory
+        path: inventory.ini

@@ -1,6 +1,7 @@
 # Organizations
 awx_config:
-  controller_host: "http://awx-demo-service.awx.svc.cluster.local:80"
+  # controller_host: "http://awx-demo-service.awx.svc.cluster.local:80"
+  controller_host: "http://localhost:8052"
   controller_username: "admin"
   controller_password: !vault |
     $ANSIBLE_VAULT;1.1;AES256
